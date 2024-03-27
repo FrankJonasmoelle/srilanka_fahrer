@@ -9,7 +9,7 @@ function QuoteAnfas() {
             <div className="card-body p-5">
   
               <div className="d-flex justify-content-center mb-4">
-                <img src="/anfas/anfas.jpeg"
+                <img src="anfas/anfas.jpeg"
                   className="rounded-circle shadow-1-strong" width="200" height="250" />
               </div>
               <figure className="text-center mb-0">

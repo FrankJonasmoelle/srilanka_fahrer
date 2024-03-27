@@ -3,7 +3,7 @@ function GalleryAnfas() {
         <div className="row">
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-            src="/anfas/anfas2.jpeg"
+            src="anfas/anfas2.jpeg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="Anfas"
             />
@@ -11,13 +11,13 @@ function GalleryAnfas() {
     
         <div className="col-lg-4 mb-4 mb-lg-0">
             <img
-            src="/anfas/car1.jpeg"
+            src="anfas/car1.jpeg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="car1"
             />
     
             <img
-            src="/anfas/car2.jpeg"
+            src="anfas/car2.jpeg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="car2"
             />
@@ -25,7 +25,7 @@ function GalleryAnfas() {
     
         <div className="col-lg-4 mb-4 mb-lg-0">
             <img
-            src="/anfas/car3.jpeg"
+            src="anfas/car3.jpeg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="car3"
             />

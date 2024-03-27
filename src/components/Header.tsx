@@ -13,7 +13,7 @@ function Header() {
         <div
           className="p-5 text-center bg-image"
           style={{
-            backgroundImage: "url('/image_gallery/sunset2.png')",
+            backgroundImage: "url('image_gallery/sunset2.png')",
             backgroundSize: '100% auto', // Set background size to 100% width and auto height
             backgroundPosition: 'center', // Center the background image vertically
             height: '600px'

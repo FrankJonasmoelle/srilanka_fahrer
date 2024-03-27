@@ -9,7 +9,7 @@ function QuoteJonas() {
             <div className="card-body p-5">
   
               <div className="d-flex justify-content-center mb-4">
-                <img src="/jonas/jonas.png"
+                <img src="jonas/jonas.png"
                   className="rounded-circle shadow-1-strong" width="250" height="250" />
               </div>
               <figure className="text-center mb-0">

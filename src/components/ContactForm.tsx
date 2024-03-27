@@ -38,17 +38,17 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} id="contactForm">
-       <div className="form-group">
-        <label>Dein Name</label>
+       <div className="form-group mb-3">
+        <label style={{fontWeight: "bold"}}>Dein Name</label>
         <input type="name" className="form-control" value={name} onChange={(e) => setName(e.target.value)} placeholder="Dein Name"/>
       </div>
-      <div className="form-group">
-        <label>Deine Email Adresse</label>
+      <div className="form-group mb-3">
+        <label style={{fontWeight: "bold"}}>Deine Email Adresse</label>
         <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="name@beispiel.com"/>
       </div>
-      <div className="form-group">
-        <label>Deine Anfrage</label>
-        <textarea className="form-control" onChange={(e) => setMessage(e.target.value)} id="exampleFormControlTextarea1" placeholder="Was sind deine Reisedaten? Egal was du vorhast, wir helfen dir gerne!"></textarea>
+      <div className="form-group mb-3">
+        <label style={{fontWeight: "bold"}}>Deine Anfrage</label>
+        <textarea className="form-control" onChange={(e) => setMessage(e.target.value)} id="exampleFormControlTextarea1" rows={8} placeholder="Was sind deine Reisedaten oder Pläne? Egal was du vorhast, wir helfen dir gerne!"></textarea>
       </div>
       <button type="submit" className="btn btn-primary mb-2">Absenden</button>
   </form>
